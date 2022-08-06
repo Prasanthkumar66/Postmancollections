@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "e0526678-ee4c-4df7-8a5b-a12402ec7f76",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Call AAD Secured Function App",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-functions-key",
+						"type": "text",
+						"value": "eJllFOgHTJxYd3a8cNUbTHvwSFiySRwKBBs-savzRD1xAzFuUa_nDw=="
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSIsImtpZCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSJ9.eyJhdWQiOiIwZjNmNTM2Ni02ZGY3LTRlNGYtOGVkYi1kY2FjZDczODVhZDQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84ZmM1NDEzMS00ZDg1LTQ2NzItOWNiZC0yMjE0YTY0M2U2MmMvIiwiaWF0IjoxNjU5NzYxMjA1LCJuYmYiOjE2NTk3NjEyMDUsImV4cCI6MTY1OTc2NTEwNSwiYWlvIjoiRTJaZ1lHaWZadGJTdmM1MGR2T09STjdrem5lN0FRPT0iLCJhcHBpZCI6IjBmM2Y1MzY2LTZkZjctNGU0Zi04ZWRiLWRjYWNkNzM4NWFkNCIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzhmYzU0MTMxLTRkODUtNDY3Mi05Y2JkLTIyMTRhNjQzZTYyYy8iLCJvaWQiOiI1YmRjZTQyNi1iZGM1LTQzNjQtYThkMC0zZmU0NWQxYzA1MjAiLCJyaCI6IjAuQVVvQU1VSEZqNFZOY2thY3ZTSVVwa1BtTEdaVFB3XzNiVTlPanR2Y3JOYzRXdFNKQUFBLiIsInN1YiI6IjViZGNlNDI2LWJkYzUtNDM2NC1hOGQwLTNmZTQ1ZDFjMDUyMCIsInRpZCI6IjhmYzU0MTMxLTRkODUtNDY3Mi05Y2JkLTIyMTRhNjQzZTYyYyIsInV0aSI6Ilh3d0RHSDRUZVU2QUN1NkM2LWtRQUEiLCJ2ZXIiOiIxLjAifQ.kL59vNquVWxW-SmYPkQeDhI0POXvJ_pX5gl56zRBke4Kkp1eryMVQxboiQgLoHv5Ym6jrqYRX6Zk4lO8q0ywVvPGiZH6N0tNL9-JYgC3c9hep3qmEuEEeuTy7ii4ofyf82TNuuK2y-rtp8Qoq-l1CWpWTfPc0vij2psD02tk2jilcfEGR0e1zzUKvimVqtt0_zIFibRUZbosGLYcJi-NBD7z-b-oldLz8Ghd4_iPCQZWuT2PL2u6XcZuJA2S0jGnoLV7Rat3Xatst4G6OHywQLeGtvek6KKIjjcBUBfe_N61H9ZBaiqvBCp4P0IRaY6LqiSii0UeN6jXLEXkpZsfcg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://functionappasbackend.azurewebsites.net/api/Function1?name=prasa",
+					"protocol": "https",
+					"host": [
+						"functionappasbackend",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Function1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "prasa"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
